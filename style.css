@@ -23,6 +23,7 @@ header {
 	width: 100%;
 	border-bottom: 1px solid seashell;
 	padding: 0 10px;
+	background-color: black;
 }
 
 header .logo img {
@@ -32,19 +33,60 @@ header .logo img {
 /*Navigation*/
 
 nav {
-	display: inline-block;
-	float: right;
+	text-align: right;
+	flex-grow: 1;
+	text-decoration: underline;
+}
+
+nav span {
+	margin-right: 20px;
 }
 
 /*Mission Statement*/
 
 .container {
 	display: flex;
-	max-width: 1200px;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .mission {
 	background-image: url(images/img-mission-background.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+	margin: 0 2em;
+	margin-top: 70px;
+	height: 700px;
+}
+
+.mission-statement {
+	background-color: black;
+	font-weight: bold;
+	margin: 295px 0;
+	width: 1200px;
+	padding-bottom: 20px;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h2, h4 {
+	padding: 0.5em 0;
+	font-weight: bold;
+	text-align: center;
+}
+
+.text-content {
+	display:block;
+}
+
+.featured-tea {
+	flex-wrap: wrap;
+	max-height: 200px;
+	max-width: 300px;
+	margin-bottom: 10px;
+}
+
+.featured-tea img {
+	height: 200px;
+	width: 300px;
 }
