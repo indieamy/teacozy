@@ -75,18 +75,16 @@ h2, h4 {
 	text-align: center;
 }
 
-.text-content {
-	display:block;
-}
-
 .featured-tea {
+	width: 100%;
+	flex-direction: row;
 	flex-wrap: wrap;
-	max-height: 200px;
-	max-width: 300px;
+	justify-content: space-between;
+	align-items: center;
 	margin-bottom: 10px;
 }
 
-.featured-tea img {
+.monthly-tea img {
 	height: 200px;
 	width: 300px;
 }
