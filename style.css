@@ -36,3 +36,15 @@ nav {
 	float: right;
 }
 
+/*Mission Statement*/
+
+.container {
+	display: flex;
+	max-width: 1200px;
+}
+
+.mission {
+	background-image: url(images/img-mission-background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
