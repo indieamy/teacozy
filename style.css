@@ -16,10 +16,21 @@ h2 {
 	font-size: 1.5em;
 }
 
+h3 {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
 h2, h4 {
 	padding: 0.5em 0;
 	font-weight: bold;
 	text-align: center;
+}
+
+h5 {
+	font-size: 0.8em;
+	font-weight: bold;
+	margin-top: 1em;
 }
 
 .container {
@@ -116,34 +127,43 @@ nav span {
 	width: 92%;
 	display: flex;
 	justify-content: center;
+	text-align: center;
 	flex-wrap: wrap;
 }
 
-.locations h2 {
+#title {
 	margin-top: 1.8em;
 	margin-bottom: 15px;
+	text-align: center;
+	height: auto;
 }
 
 .stores {
+	display: flex;
+	align-content: space-between;
+	align-items: center;
+	flex-wrap: no-wrap;
 	background-color: black;
 	width: 300px;
+	height: 300px;
 	opacity: 1;
 	margin: auto;
 }
 
-/*.stores {
-	display: inline-flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	background-color: black;
-	opacity: 1;
-	width: 300px;
-	align-content: space-around;
-	margin: auto;
-}*/
+.address h2, p {
+	padding: 3em 0;
+	text-align: center;
+}
 
-/*.address {
-	display: inline-flex;
+.contact-info {
+	height: 200px;
 	align-items: center;
-	margin: auto;
-}*/
+	text-align: center;
+}
+
+.footer {
+	font-size: 0.8em;
+	font-weight: bold;
+	float: left;
+	margin-left: 20px;
+}
