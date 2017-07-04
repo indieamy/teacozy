@@ -147,7 +147,7 @@ nav span {
 
 .stores {
 	display: flex;
-	align-content: space-between;
+	justify-content: center;
 	align-items: center;
 	flex-wrap: no-wrap;
 	background-color: black;
