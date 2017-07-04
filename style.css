@@ -115,6 +115,7 @@ nav span {
 	width: 300px;
 }
 
+/* Locations Section */
 .title {
 	margin-top: 2em;
 }
@@ -126,9 +127,8 @@ nav span {
 	height: 500px;
 	width: 92%;
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
 	text-align: center;
-	flex-wrap: wrap;
 }
 
 #title {
@@ -136,6 +136,13 @@ nav span {
 	margin-bottom: 15px;
 	text-align: center;
 	height: auto;
+}
+
+#locations-address {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
 }
 
 .stores {
@@ -150,11 +157,12 @@ nav span {
 	margin: auto;
 }
 
-.address h2, p {
-	padding: 3em 0;
+.address h3, p {
+	align-items: center;
 	text-align: center;
 }
 
+/* Footer */
 .contact-info {
 	height: 200px;
 	align-items: center;
